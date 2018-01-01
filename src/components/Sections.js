@@ -6,9 +6,9 @@ import AdoptMe from './AdoptMe';
 import HowToHelp from './HowToHelp';
 import HuskiesForHire from './HuskiesForHire';
 import SurrenderAHusky from './SurrenderAHusky';
-import HuskyDayOut from './HuskyDayOut';
 import TheEntertaimnentBook from './TheEntertaimnentBook';
 import ContactUs from './ContactUs';
+import OurEvents from "./OurEvents";
 
 export default class Sections extends Component {
     render() {
@@ -20,7 +20,7 @@ export default class Sections extends Component {
                 <HowToHelp />
                 <HuskiesForHire />
                 <SurrenderAHusky />
-                <HuskyDayOut />
+                <OurEvents />
                 <TheEntertaimnentBook />
                 <ContactUs />
             </main>
