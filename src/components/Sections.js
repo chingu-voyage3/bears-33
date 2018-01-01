@@ -5,7 +5,7 @@ import WhatYouNeedToKnow from './WhatYouNeedToKnow';
 import AdoptMe from './AdoptMe';
 import HowToHelp from './HowToHelp';
 import HuskiesForHire from './HuskiesForHire';
-import SurrenderAHusky from './SurrenderAHusky';
+import SurrenderAHusky from '../containers/SurrenderAHusky';
 import TheEntertaimnentBook from './TheEntertaimnentBook';
 import ContactUs from './ContactUs';
 import OurEvents from "./OurEvents";
