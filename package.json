@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.0",
+    "@fortawesome/fontawesome-free-brands": "^5.0.2",
+    "@fortawesome/fontawesome-free-solid": "^5.0.2",
+    "@fortawesome/react-fontawesome": "0.0.17",
     "bootstrap": "^4.0.0-beta.2",
     "jquery": "^3.2.1",
     "node-sass-chokidar": "0.0.3",
@@ -12,6 +16,8 @@
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
     "react-scripts": "1.0.17",
+    "react-youtube": "^7.5.0",
+    "reactstrap": "^5.0.0-alpha.4",
     "redux": "^3.7.2"
   },
   "scripts": {
