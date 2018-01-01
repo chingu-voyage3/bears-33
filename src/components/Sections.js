@@ -3,7 +3,7 @@ import { Component } from 'react';
 import AboutMe from './AboutMe';
 import WhatYouNeedToKnow from './WhatYouNeedToKnow';
 import AdoptMe from './AdoptMe';
-import HowToHelp from './HowToHelp';
+import HowToHelp from '../containers/HowToHelp';
 import HuskiesForHire from './HuskiesForHire';
 import SurrenderAHusky from '../containers/SurrenderAHusky';
 import TheEntertaimnentBook from './TheEntertaimnentBook';
