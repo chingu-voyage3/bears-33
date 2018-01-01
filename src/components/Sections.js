@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import AboutMe from './AboutMe';
-import WhatYouNeedToKnow from './WhatYouNeedToKnow';
+import WhatYouNeedToKnow from '../containers/WhatYouNeedToKnow';
 import AdoptMe from './AdoptMe';
 import HowToHelp from '../containers/HowToHelp';
 import HuskiesForHire from './HuskiesForHire';
