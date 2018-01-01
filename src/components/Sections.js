@@ -7,7 +7,7 @@ import HowToHelp from './HowToHelp';
 import HuskiesForHire from './HuskiesForHire';
 import SurrenderAHusky from '../containers/SurrenderAHusky';
 import TheEntertaimnentBook from './TheEntertaimnentBook';
-import ContactUs from './ContactUs';
+import ContactUs from '../containers/ContactUs';
 import OurEvents from "./OurEvents";
 
 export default class Sections extends Component {
