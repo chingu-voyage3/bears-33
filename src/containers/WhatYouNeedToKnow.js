@@ -46,7 +46,9 @@ class WhatYouNeedToKnow extends Component {
                     <div class="row align-items-center">
                         <div className="col-md-4">
                             <p>{ this.props.data.content }</p>
-                            <Button color="danger" onClick={this.toggle}>Read More</Button>
+                            <div className="d-flex justify-content-center">
+                                <Button color="danger" className="mb-3" onClick={this.toggle}>Read More</Button>
+                            </div>
                         </div>
                         <div className="col-md-8">
                             <div className="embed-responsive embed-responsive-16by9">
@@ -70,7 +72,6 @@ class WhatYouNeedToKnow extends Component {
                                 })}
                             </ol>
                             <br />
-                            <Button color="danger" onClick={this.toggleNested}>Go to Good Points</Button>
                             <Modal isOpen={this.state.nestedModal} toggle={this.toggleNested} onClosed={this.state.closeAll ? this.toggle : undefined}>
                                 <ModalHeader>Good Points</ModalHeader>
                                 <ModalBody>
@@ -88,6 +89,7 @@ class WhatYouNeedToKnow extends Component {
                             </Modal>
                         </ModalBody>
                         <ModalFooter>
+                            <Button color="danger" onClick={this.toggleNested}>Go to Good Points</Button>{' '}
                             <Button color="secondary" onClick={this.toggle}>Done</Button>
                         </ModalFooter>
                     </Modal>
