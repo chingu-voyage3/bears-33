@@ -9,7 +9,7 @@ export default class Header extends Component {
                 <div>
                     <Jumbotron fluid className="jumbotron d-flex align-items-center">
                         <Container fluid>
-                            <h1 className="display-5">HUSKY RESCUE NZ CHARITABLE TRUST</h1>
+                            <h1 className="display-5 font-weight-bold">HUSKY RESCUE NZ CHARITABLE TRUST</h1>
                             <p className="lead">Rescue, Desex, Rehabilitate, Retrain and Rehome of Siberian Huskies in NZ</p>
                             <Button color="danger">Our Dogs</Button>{' '}
                         </Container>

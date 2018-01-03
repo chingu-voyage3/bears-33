@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
 .logo {
   height: 13vh; }
 
@@ -17,8 +18,42 @@ section {
   background-color: #f8f9fa;
   padding-bottom: 5%; }
 
-#facebook, #instagram {
-  height: 50px; }
-
 ul.no-bullet {
   list-style-type: none; }
+
+.btn-danger {
+  background-color: #B42029;
+  border-color: #B42029; }
+
+.btn-primary {
+  background-color: #019CDE;
+  border-color: #019CDE; }
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #087dde;
+  border-color: #087dde; }
+
+.btn-warning {
+  background-color: #FDC73C;
+  border-color: #FDC73C; }
+
+.btn-info {
+  background-color: #B5975B;
+  border-color: #B5975B; }
+
+.btn-info:hover, .btn-info:focus {
+  background-color: #9c8151;
+  border-color: #9c8151; }
+
+h1, h2, h3, h4, h5, h6,
+p, li, .btn {
+  font-family: 'Lato', sans-serif; }
+
+.social-icon {
+  color: #B42029; }
+
+.social-icon:hover, .social-icon:focus {
+  color: #c82333; }
+
+#facebook, #instagram {
+  height: 50px; }

@@ -31,8 +31,8 @@ class ContactUs extends Component {
                             </div>
                             <div>
                                 <h3 className="mb-3 mt-3">Follow Us</h3>
-                                <a className="mr-3 text-danger" href={this.props.data.facebookUrl}><FontAwesomeIcon icon={ faFacebook }  size={'3x'} /></a>
-                                <a className="text-danger" href={this.props.data.instagramUrl}><FontAwesomeIcon icon={ faInstagram } size={'3x'} /></a>
+                                <a className="mr-3 social-icon" href={this.props.data.facebookUrl}><FontAwesomeIcon icon={ faFacebook }  size={'3x'} /></a>
+                                <a className="social-icon" href={this.props.data.instagramUrl}><FontAwesomeIcon icon={ faInstagram } size={'3x'} /></a>
                             </div>
                         </div>
                     </div>
