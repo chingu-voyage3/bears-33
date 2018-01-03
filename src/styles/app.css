@@ -11,15 +11,15 @@
 section {
   margin-top: 5%; }
 
-.paypal {
-  margin-left: 12%; }
-
 #contact {
   background-color: #f8f9fa;
   padding-bottom: 5%; }
 
 ul.no-bullet {
   list-style-type: none; }
+
+.btn {
+  cursor: pointer; }
 
 .btn-danger {
   background-color: #B42029;

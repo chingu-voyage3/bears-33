@@ -24,13 +24,14 @@ class HowToHelp extends Component {
 
     render() {
         return (
-            <section>
+            <section >
                 <Container>
                     <h2 className="text-center mb-5">HOW TO HELP</h2>
                     <div>
                         <Nav tabs>
                             <NavItem>
                                 <NavLink
+                                    id="weNeedYourHelp"
                                     className={classnames({ active: this.state.activeTab === '1' })}
                                     onClick={() => { this.toggle('1'); }}
                                 >
@@ -39,6 +40,7 @@ class HowToHelp extends Component {
                             </NavItem>
                             <NavItem>
                                 <NavLink
+                                    id="charityStatus"
                                     className={classnames({ active: this.state.activeTab === '2' })}
                                     onClick={() => { this.toggle('2'); }}
                                 >
@@ -47,6 +49,7 @@ class HowToHelp extends Component {
                             </NavItem>
                             <NavItem>
                                 <NavLink
+                                    id="contributions"
                                     className={classnames({ active: this.state.activeTab === '3' })}
                                     onClick={() => { this.toggle('3'); }}
                                 >

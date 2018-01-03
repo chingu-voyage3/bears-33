@@ -40,14 +40,14 @@ class WhatYouNeedToKnow extends Component {
     }
     render() {
         return (
-            <section>
+            <section id="whatYouNeedToKnow">
                 <Container>
                     <h2 className="text-center mb-5">WHAT YOU NEED TO KNOW</h2>
                     <div class="row align-items-center">
                         <div className="col-md-4">
                             <p>{ this.props.data.content }</p>
                             <div className="d-flex justify-content-center">
-                                <Button color="danger" className="mb-3" onClick={this.toggle}>Read More</Button>
+                                <Button color="danger" className="mb-3" onClick={this.toggle}>Read More about Huskies</Button>
                             </div>
                         </div>
                         <div className="col-md-8">

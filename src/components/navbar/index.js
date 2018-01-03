@@ -46,22 +46,22 @@ export default class MainNavbar extends Component {
                             <UncontrolledDropdown nav>
                                 <DropdownToggle nav caret>Adoption</DropdownToggle>
                                 <DropdownMenu >
-                                    <DropdownItem>What you need to know</DropdownItem>
+                                    <DropdownItem href="#whatYouNeedToKnow">What you need to know</DropdownItem>
                                     <DropdownItem>Adopt Me</DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <UncontrolledDropdown nav>
                                 <DropdownToggle nav caret>How To Help</DropdownToggle>
                                 <DropdownMenu >
-                                    <DropdownItem>We need your help</DropdownItem>
-                                    <DropdownItem>Charity Status</DropdownItem>
+                                    <DropdownItem href="#weNeedYourHelp">We need your help</DropdownItem>
+                                    <DropdownItem href="#charityStatus">Charity Status</DropdownItem>
                                     <DropdownItem divider />
-                                    <DropdownItem>Contributions</DropdownItem>
+                                    <DropdownItem href="#contributions">Contributions</DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
                             <NavItem><NavLink href="#">Our Events</NavLink></NavItem>
-                            <NavItem><NavLink href="#">Surrender a Husky</NavLink></NavItem>
-                            <NavItem><NavLink href="#">Contact</NavLink></NavItem>
+                            <NavItem><NavLink href="#surrenderAHusky">Surrender a Husky</NavLink></NavItem>
+                            <NavItem><NavLink href="#contact">Contact</NavLink></NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>

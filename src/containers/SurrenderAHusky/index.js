@@ -7,7 +7,7 @@ import {connect} from "react-redux";
 class SurrenderAHusky extends Component {
     render() {
         return (
-            <section>
+            <section id="surrenderAHusky">
                 <Container>
                     <h2 className="text-center mb-5">SURRENDER A HUSKY</h2>
                     <div className="row align-items-center ">

@@ -15,11 +15,6 @@ section {
   margin-top: 5%;
 }
 
-// Insert space between icon and text
-.paypal {
-  margin-left: 12%;
-}
-
 #contact {
   background-color: #f8f9fa;
   padding-bottom: 5%;
@@ -33,6 +28,10 @@ ul.no-bullet {
 }
 
 //Buttons
+.btn {
+  cursor: pointer;
+}
+
 .btn-danger {
   background-color: #B42029;
   border-color: #B42029;
